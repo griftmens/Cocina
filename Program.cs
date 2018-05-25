@@ -127,7 +127,7 @@ namespace Cocina
             while (mante != "s" && mante != "n")
             {
                 Console.WriteLine("Intente denuevo: s/n");
-                respuesta = Console.ReadLine();
+                mante = Console.ReadLine();
             }
             while (mante == "n")
             {
@@ -139,7 +139,6 @@ namespace Cocina
             }
             if (mante == "s")
                 num4 = true;
-            Console.ReadKey();
             Console.Clear();
 
 
@@ -154,7 +153,7 @@ namespace Cocina
             while (huevon != "s" && huevon != "n")
             {
                 Console.WriteLine("Intente denuevo: s/n");
-                respuesta = Console.ReadLine();
+                huevon = Console.ReadLine();
             }
             while (huevon == "n")
             {
@@ -168,7 +167,6 @@ namespace Cocina
             }
             if (huevon == "s")
                 num5 = true;
-            Console.ReadKey();
             Console.Clear();
 
             if (num1 == true && num2 == true && num3 == true && num4 == true && num5 == true)
