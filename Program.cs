@@ -66,7 +66,7 @@ namespace Cocina
             Console.WriteLine("Los datos de su parrilla son: ");
             Console.WriteLine("Marca: ");
             elec.mar_electrodomestico = Console.ReadLine();
-            Console.WriteLine("Estado: ");
+            Console.WriteLine("Estado (1 / 10): ");
             elec.des_electrodomestico = int.Parse(Console.ReadLine());
             Console.Clear();
             Console.WriteLine("Los datos son: ");
@@ -147,7 +147,7 @@ namespace Cocina
             hue.can_huevo = int.Parse(Console.ReadLine());
             int gramos;
             gramos = hue.can_huevo * hue.peso_comida;
-            Console.WriteLine("Usted consumira: " + gramos +"gramos");
+            Console.WriteLine("Usted consumira: " + gramos +" gramos");
             Console.WriteLine("Consumira esa cantidad?");
             Console.WriteLine("s/n");
             huevon = Console.ReadLine();
@@ -161,7 +161,7 @@ namespace Cocina
                 Console.WriteLine("Cuantos huevos utilizara?");
                 hue.can_huevo = int.Parse(Console.ReadLine());
                 gramos = hue.can_huevo * hue.peso_comida;
-                Console.WriteLine("Usted consumira: " + gramos + "gramos");
+                Console.WriteLine("Usted consumira: " + gramos + " gramos");
                 Console.WriteLine("Consumira esa cantidad?");
                 Console.WriteLine("s/n");
                 huevon = Console.ReadLine();
