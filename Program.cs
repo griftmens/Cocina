@@ -10,6 +10,7 @@ namespace Cocina
             string prender;
             string mante;
             string huevon;
+
             bool num1 = false;
             bool num2 = false;
             bool num3 = false;
@@ -120,7 +121,7 @@ namespace Cocina
 
             Console.WriteLine("Cuanta mantequilla utilizara?");
             con.cant_condimento = int.Parse(Console.ReadLine());
-            Console.WriteLine("Desea utulizar esa cantidad?");
+            Console.WriteLine("Desea utilizar esa cantidad?");
             Console.WriteLine("s/n");
             mante = Console.ReadLine();
             while (mante != "s" && mante != "n")
