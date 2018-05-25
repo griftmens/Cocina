@@ -10,6 +10,7 @@ namespace Cocina
             string prender;
             string mante;
             string huevon;
+            string arroz;
 
             bool num1 = false;
             bool num2 = false;
@@ -23,6 +24,7 @@ namespace Cocina
             Utensilios ute = new Utensilios();
             Condimento con = new Condimento();
             Huevo hue = new Huevo();
+            Arroz roz = new Arroz();
 
 
             Console.WriteLine("Hola, hoy cocinaremos un huevo frito");
@@ -172,6 +174,40 @@ namespace Cocina
             if (num1 == true && num2 == true && num3 == true && num4 == true && num5 == true)
             {
                 Console.WriteLine("Su huevo frito esta listo.");
+            }
+            Console.ReadKey();
+            Console.Clear();
+
+
+            Console.WriteLine("Desea añadirle arroz?");
+            Console.WriteLine("s/n");
+            arroz = Console.ReadLine();
+            while (arroz != "s" && arroz != "n")
+            {
+                Console.WriteLine("Desea añadirle arroz?");
+                Console.WriteLine("s/n");
+                arroz = Console.ReadLine();
+            }
+            if  (arroz == "s")
+            {
+                string tipoarroz;
+                //tipoarroz = roz.tarroz;
+                Console.WriteLine("Que tipo de arroz desea. Amarillo (a) o Blanco (b)");
+                tipoarroz = Console.ReadLine();
+                while (tipoarroz != "a" && tipoarroz != "b")
+                {
+                    Console.WriteLine("Que tipo de arroz desea. Amarillo (a) o Blanco (b)");
+                    tipoarroz = Console.ReadLine();
+                }
+                if (tipoarroz == "a")
+                {
+                    Console.WriteLine("Usted eligio: Arroz amarillo.");
+                    roz.amarillo = true;
+                } else if (tipoarroz == "b")
+                {
+                    Console.WriteLine("Usted eligio: Arroz Blanco");
+                    roz.blanco = true;
+                }
             }
             Console.ReadKey();
             Console.Clear();

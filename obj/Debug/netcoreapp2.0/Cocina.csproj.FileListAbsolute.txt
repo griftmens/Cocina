@@ -9,3 +9,14 @@ C:\Users\J O A Q U I N\Desktop\Examen Hible\Cocina\Cocina\obj\Debug\netcoreapp2.
 C:\Users\J O A Q U I N\Desktop\Examen Hible\Cocina\Cocina\obj\Debug\netcoreapp2.0\Cocina.AssemblyInfo.cs
 C:\Users\J O A Q U I N\Desktop\Examen Hible\Cocina\Cocina\obj\Debug\netcoreapp2.0\Cocina.dll
 C:\Users\J O A Q U I N\Desktop\Examen Hible\Cocina\Cocina\obj\Debug\netcoreapp2.0\Cocina.pdb
+C:\Users\a02c105\Desktop\Examen hible\Cocina\bin\Debug\netcoreapp2.0\Cocina.deps.json
+C:\Users\a02c105\Desktop\Examen hible\Cocina\bin\Debug\netcoreapp2.0\Cocina.runtimeconfig.json
+C:\Users\a02c105\Desktop\Examen hible\Cocina\bin\Debug\netcoreapp2.0\Cocina.runtimeconfig.dev.json
+C:\Users\a02c105\Desktop\Examen hible\Cocina\bin\Debug\netcoreapp2.0\Cocina.dll
+C:\Users\a02c105\Desktop\Examen hible\Cocina\bin\Debug\netcoreapp2.0\Cocina.pdb
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.csprojResolveAssemblyReference.cache
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.csproj.CoreCompileInputs.cache
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.AssemblyInfoInputs.cache
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.AssemblyInfo.cs
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.dll
+C:\Users\a02c105\Desktop\Examen hible\Cocina\obj\Debug\netcoreapp2.0\Cocina.pdb

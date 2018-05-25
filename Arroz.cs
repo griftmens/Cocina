@@ -6,7 +6,8 @@ namespace Cocina
 {
     class Arroz
     {
-        public bool blanco;
-        public bool amarillo;
+        public bool blanco = false;
+        public bool amarillo = false;
+        public string tarroz;
     }
 }
